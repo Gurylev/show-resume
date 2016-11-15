@@ -1,0 +1,35 @@
+/* extends base layout */
+.slide ul>li.middle:before {
+    content: '⛑';
+    transform: translateY(3px);
+}
+.slide ul>li.junior:before {
+    content: '👶';
+    transform: translateY(1px);
+}
+.slide ul>li.call:before {
+    content: '🛎';
+}
+
+.slide h2 {
+    font-family: 'Yeseva One', 'PT Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#cover h2 {
+    margin:30px 0 0;
+    color:#FFF;
+    text-align:center;
+    font-size:70px;
+}
+#cover p {
+    margin:10px 0 0;
+    text-align:center;
+    color:#FFF;
+    font-style:italic;
+    font-size:20px;
+}
+#cover p a {
+    color:#FFF;
+}
